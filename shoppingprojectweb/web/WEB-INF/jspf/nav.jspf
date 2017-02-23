@@ -1,0 +1,32 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="shoppingproject.domain.Customer"%>
+<%@ page pageEncoding="UTF-8" %>
+<%
+    String welcomeMessage;
+    if( session != null && session.getAttribute("user") != null){
+        Customer customer = (Customer)session.getAttribute("user");
+        welcomeMessage = "Welcome to the shop " + customer.getUserName();
+    } else {
+        welcomeMessage = "Welcome guest, please consider registering or login.";
+    }
+%>
+
+<nav>
+    <ul>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="products.jsp">Browser Products</a></li>
+        <li><a href="cart.jsp">View Cart</a></li>
+        
+        <% if( session.getAttribute("loggedIn") == null ) { %>
+        <li><a href="register.jsp">Register</a></li>
+        <li><a href="login.jsp">Log In</a></li>
+        <%} else if ( (boolean)session.getAttribute("loggedIn")) {%>
+            <li><a href="Logout?logout=true">Logout</a></li>
+        <%}%>
+    </ul>
+</nav>
+    <% if( session.getAttribute("loggedIn") != null ) { %>
+        <p><%= welcomeMessage%></p>
+    <%} else if ( session.getAttribute("loggedIn") == null) {%>
+        <p><%= welcomeMessage%></p>    
+    <%}%>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/dao/DbDao.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/test/shoppingproject/gui/ProductEditorTest.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/dao/IDAO.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/dao/JdbcConnector.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/gui/ProductReport.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/gui/ProductEditor.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/domain/Product.java</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/schema.sql</file>
+            <file>file:/H:/2016/info221/shoppingproject/src/shoppingproject/dao/ListDao.java</file>
+        </group>
+    </open-files>
+</project-private>
